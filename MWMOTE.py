@@ -8,7 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.cluster import AgglomerativeClustering
 
 #Import Data
-dataframe = pd.read_csv("D:/Programming/ADS/Coursework/meta_features_train.csv")
+dataframe = pd.read_csv("INPUT_FILE")
 
 #Input variables
 #Minority Set
