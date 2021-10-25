@@ -12,9 +12,9 @@ dataframe = pd.read_csv("INPUT_FILE")
 
 #Input variables
 #Minority Set
-Smin = dataframe[dataframe["is_fraud"] == 1]
+Smin = dataframe[MINORITY SET KEY]
 #Majority Set
-Smaj = dataframe[dataframe["is_fraud"] == 0]
+Smaj = dataframe[MAJORITY SET KEY]
 #Number of Samples we need to create
 N = len(Smaj) - len(Smin)
 #Clustering Parameters
